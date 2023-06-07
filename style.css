@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,600;1,700&family=Playfair:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxv;
+}
+body{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar */
+
+.logo-image{
+    width: 10rem;
+    padding-left: 1rem;
+}
+
+
+/* Section-1  */
+
+#hero-1{
+    width: 100%;
+    height: 100vh;
+}
+
+.welcome-text-box{
+    /* background-color: cornflowerblue; */
+    height: auto;
+    min-height: 100vh;
+    margin-top: -4rem;
+}
+
+.welcome-text-box>h1{
+    font-family: 'Playfair', serif;
+    width: 16rem;
+    display: flex;
+    font-weight: 800;
+    padding-top: 5rem;
+    padding-left: 3rem;
+}
+.welcome-text-box>p{
+    width: 16rem;
+    font-size: 8px;
+    padding-left: 3rem;
+}
+
+.welcome-text-box>button{
+    margin-left: 3rem;
+    border-radius: 10%;
+
+}
+  
+
+.welcome-text-box>img{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: -10;
+    margin-top: -4rem;
+}
+
+
+
+
